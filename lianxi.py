@@ -30,3 +30,6 @@ textbox1.grid_configure(column=2,row=1,columnspan=3,rowspan=1)
 var_password=StringVar()
 textbox2=Entry(top,textvariable=var_password)
 textbox2.grid_configure(column=2,row=2,columnspan=3,rowspan=1)
+
+button1=Button(top,text='登录',command=lambda:Login()).grid(column=3,row=4,columnspan=3,rowspan=1)
+button2=Button(top,text='退出',command=lambda:quit_()).grid(column=5,row=4,columnspan=3,rowspan=1)
