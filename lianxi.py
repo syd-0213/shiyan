@@ -22,3 +22,11 @@ textbox2=Text(top,height=1,width=12)
 
 label1.grid_configure(column=1,row=1,columnspan=1,rowspan=1)
 label2.grid_configure(column=1,row=2,columnspan=1,rowspan=1)
+
+var_name=StringVar()
+textbox1=Entry(top,textvariable=var_name)
+textbox1.grid_configure(column=2,row=1,columnspan=3,rowspan=1)
+
+var_password=StringVar()
+textbox2=Entry(top,textvariable=var_password)
+textbox2.grid_configure(column=2,row=2,columnspan=3,rowspan=1)
